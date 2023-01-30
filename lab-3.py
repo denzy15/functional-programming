@@ -1,8 +1,8 @@
 import random
 # 1
-"""  
-times = [3, 4, 8, 5]
 
+times = [3, 4, 8, 5]
+"""
 counter = 0
 
 while (counter < len(times)):
@@ -13,8 +13,8 @@ while (counter < len(times)):
     print(str(counter + 1) + '. iteration:')
     print(''.join(str(n) for n in tempArr))
     counter += 1
-"""
 
+"""
 # 2
 
 """my_list = [1, "hello", 3.14, [1, 2, 3], 333, 'PYTHON']
@@ -38,7 +38,7 @@ for item in enumerate(templist):
 """
 # 4.1
 
-"""print('Введите А:')
+"""]print('Введите А:')
 a = int(input())
 print('Введите B:')
 b = int(input())
@@ -70,25 +70,22 @@ else:
 
 # 4.3
 
-"""print('Введите А:')
-a = int(input())
-print('Введите B:')
-b = int(input())
+a = 16
+b = 1
 
-print('=======')
+a = a - (a % 2 == 0)
 
-start = a-1 if a % 2 == 0 else a
-for i in range(start, b-1, -2):
+for i in range(a, b - 1, -2):
     print(i)
-"""
 
 # 4.4
 
-
-"""n = 8
+"""
+n = 8
 
 current_cards = ""
 loose_random_card = random.randint(1, n)
+
 
 for i in range(n):
     if (i+1 != loose_random_card):
