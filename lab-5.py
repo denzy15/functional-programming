@@ -40,7 +40,7 @@ for i in range(len(student_info)):
         break
 
 """
-
+# 3
 """numbers = []
 while True:
     number = int(input("Введите число (0 чтобы остановиться): "))
@@ -55,7 +55,23 @@ for number in numbers:
     print(number)
 """
 
+# 4
+"""numbers = []
+while True:
+    number = int(input("Введите число (0 чтобы остановиться): "))
+    if number == 0:
+        break
+    numbers.append(number)
 
+numbers.sort(reverse=True)
+
+print("Введенные числа по убыванию:")
+for number in numbers:
+    print(number)
+"""
+
+
+# 5
 """random_numbers = set()
 while len(random_numbers) < 6:
     random_numbers.add(random.randint(1, 49))
@@ -67,6 +83,9 @@ print("Номера для билета:", random_numbers)
 """
 
 
+# 6
+
+"""
 def is_sorted(lst):
     if len(lst) < 2:
         return True
@@ -89,3 +108,4 @@ for i in range(5):
     input_list.append(int(input('Введите число: ')))
 
 print(is_sorted(input_list))
+"""
