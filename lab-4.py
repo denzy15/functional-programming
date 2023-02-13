@@ -1,5 +1,4 @@
-# 1
-"""# Define a sample string
+"""# 1
 string = "Hello, World!"
 
 # 1.1.
@@ -30,7 +29,7 @@ print(f"Строка начинается со слова 'Hello': {starts_with}
 ends_with = string.endswith("World!")
 print(f"Строка заканчивается на 'World!': {ends_with}")
 
-# 1.8. Find index of a specific substring
+# 1.8.
 index = string.find("World")
 print(f"Индекс начала слова 'World': {index}")
 
@@ -40,12 +39,12 @@ print(f"Строка содержит только буквы и цифры?: {i
 
 # 1.10. Strip whitespace characters
 stripped = string.strip('!')
-print(f"Stripped string: {stripped}")
-"""
+print(f"Stripped string: {stripped}")"""
+
 
 # 2
-"""
-students = []
+
+"""students = []
 
 while True:
     student = input(
@@ -62,9 +61,9 @@ for student in students:
     print(f"{name} ({grade})")
 """
 
-# 3.1
+"""# 3.1
 
-"""string = input("Введите строку: ")
+string = input("Введите строку: ")
 
 upper_count = 0
 lower_count = 0
@@ -79,7 +78,6 @@ if upper_count > lower_count:
     print(string.upper())
 else:
     print(string.lower())
-
 """
 
 # 3.2
