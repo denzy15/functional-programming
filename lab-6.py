@@ -43,13 +43,15 @@ print(set_3)
 
 # 5.
 set_1.clear()
-print(set_1)
+
+
 """
+
 
 # 1
 
-"""
-def fill_tuple(start, end, count):
+
+"""def fill_tuple(start, end, count):
     return tuple(random.randint(start, end) for _ in range(count))
 
 
@@ -65,16 +67,16 @@ print(f"Tuple 3: {tuple_3}")
 # Count the number of zeros in the third tuple
 count_zeros = tuple_3.count(0)
 print(f"Количество нулей в tuple_3: {count_zeros}")
-"""
 
+"""
 # 2
 
 """my_tuple = (1, (42, (3.14, ((3+2j), ('Конечная строка', ())))))
 
-new_tuple = my_tuple[1][1][1][1]
+new_tuple = my_tuple[1][1][1][1][0]
 
-print(new_tuple[0])
-"""
+print(new_tuple)"""
+
 
 # 3
 
@@ -97,8 +99,8 @@ for i in range(7):
 
 print("Total expenses for the week:", total)
 
-print(expenses)
-"""
+print(expenses)"""
+
 
 # 4
 
@@ -132,3 +134,4 @@ for letter in cyrillic_text:
 
 
 print(latin_text)
+
